@@ -1,0 +1,186 @@
+          
+@media screen and (min-width: 896px) {
+    .entete .log2{
+        display: none;
+    }
+}
+          
+/* ===== Ecran de taille max 1075 ===== */
+@media screen and (max-width: 1075px) {
+     /* ========== ENTETE ========= */
+    .entete .logo,.entete .logo img{
+        padding:0%;
+        margin: 0%;
+    } 
+    .entete .log1 .recherche form{
+        margin-left: 15%;
+        width: 100%;
+    }
+    .entete .log1 .login  nav{
+        font-size: 2px!important;
+        margin-left:0%;
+        width: 100%;
+    }
+                /* ========== END ENTETE ========= */
+
+                /* ========== MENU ========= */
+    body>nav>a,body>nav>li>a{
+        color:white!important;
+        font-size: 15px;
+    }
+                /* ========== END MENU ========= */
+
+                /* ========== SECTION 1 ========= */
+    .slide{
+        height: 300px;
+    }
+    .slide h1{
+        font-size: 15px;
+    }
+    /* ========== END SECTION 1 ========= */
+
+    /* ========== SECTION 2 ========= */
+    .prest .produit{
+        font-size: 10px;
+    }
+    .prest .produit h6{
+        margin-top: 202px;
+        font-size: 1.2em;
+    } 
+}
+/* ===== Ecran de taille max 1075 END ===== */
+
+/* ===== Ecran de taille max 915 ===== */
+@media screen and (max-width: 915px) {
+            /* ========== ENTETE ========= */
+    .entete  .log1 .recherche form{
+        display: inline-block;
+        margin-left: 25%;
+        width: 75%;
+    }
+    .entete .login  nav{
+        display: inline-flex;
+        font-size: 2px!important;
+        margin-left:0%;
+        width: 100%; 
+        text-align: left;
+    }
+    /* ========== END ENTETE ========= */
+
+    /* ========== SECTION 2 ========= */
+    .prest .produit{
+        padding:0%
+    }
+    .prest .produit .price,.prest .produit button{
+        height: 20;
+        font-size: 1em;
+    }
+}
+/* ===== Ecran de taille max 915 END ===== */
+
+/* ===== Ecran de taille max 895 ===== */
+@media screen and (max-width: 895px) {
+            /* ========== ENTETE ========= */
+    .entete .log1{
+        display: none;
+    }
+    .entete .log2 .recherche .navbar{
+        margin: 0;
+        padding-left: 20%;
+        padding-right: 5%;
+    }
+    .entete .log2 .recherche .nav{
+        width: 40%;
+        margin-left: 40%;
+        cursor:pointer;
+    }
+    .entete .log2 .recherche .nav:hover{
+        background-color:black;
+    }
+    .entete .log2 .recherche .nav a{
+        
+        color:rgb(248, 211, 3); 
+    }
+    .entete .log2 .recherche .nav a:hover{
+        color:white;
+    }
+                /* ========== END ENTETE ========= */
+
+                /* ========== FOOTER ========= */
+     footer{
+        height: 75px;
+    }
+    footer p{
+        line-height: 75px;
+    }
+                /* ========== END FOOTER ========= */
+}
+/* ===== Ecran de taille max 895 END ===== */
+            
+/* ===== Ecran de taille max 770 ===== */
+@media screen and (max-width: 770px) {
+    .prest .produits .produit{
+        width: 35%;
+        margin-left: 5%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding-bottom: 0%;
+    }
+    .prest .produits .vide{
+        display: none;
+    }
+    .prest .produits .produit img{
+        height: 85%;
+    }
+    .prest .produits .produit h6{
+        margin-top: 215px;
+        margin-bottom: 2px;
+        font-size: 1rem;
+    }
+}
+/* ===== Ecran de taille max 770 END ===== */
+
+/* ===== Ecran de taille max 768 ===== */
+@media screen and (max-width: 768px) {
+/* ========== ENTETE ========= */
+    .entete .log2{
+        flex-direction: column;
+    }
+    .entete .log2 .logo{
+        text-align: center;
+    }
+    .entete .log2 .recherche{
+        display: flex;
+        width: 100%;
+    }
+    .entete .log2 .recherche .navbar{
+        width: 70%;
+        padding: 0%;
+        margin-left: 5% ;
+    }
+    .entete .log2 .recherche .navbar .search{
+        width: inherit !important;
+        margin: 0% !important;
+        padding: 0% !important;
+    }
+    .entete .log2 .recherche .nav{
+        width: 30%;
+        margin: 0%;
+        margin-right: 5%;
+    }
+/* ========== END ENTETE ========= */
+
+    .prest .produits .vid{
+        display: none;
+    }
+    .prest .produits .produit{
+        margin-left: 10%;
+    }
+    .prest .produits .produit h6{
+        margin-top: 210px;
+    } 
+}
+/* ===== Ecran de taille max 768 END ===== */
+
+
+
